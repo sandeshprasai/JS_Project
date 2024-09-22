@@ -1,0 +1,93 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none  ;
+    background-color: #F2F2F2;
+}
+.box
+{
+    margin: 10px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    border-radius: 5%;
+
+}
+
+.heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    background-color: #fff;   
+}
+.heading h2 , .heading p
+{
+    background: transparent;
+    padding: 5px;
+}
+.inputFields
+{
+    width:100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+.fields
+{
+display: flex;
+flex-direction: column;
+margin: 10px 15px 10px 15px;
+background-color: #fff;
+padding: 0px 10px 0px 0px;
+}
+.fields label , .fields input
+{
+    background: transparent;
+}
+.fields  input[type= text]
+{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+.btns
+{
+    width: 100%;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    
+}
+
+.btns button
+{
+    width: 100%;
+    cursor: pointer;
+    height: 40px;
+    background-color: #4AA049;
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.total{
+    display: flex;
+    padding: 10px;
+    margin: 10px 15px 10px 15px;
+    align-self: start;
+    background-color: #fff;
+}
+.total h2 , .total h3
+{
+background: transparent;
+line-height: 20px;
+}
