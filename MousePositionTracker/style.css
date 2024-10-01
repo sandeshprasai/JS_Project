@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #16378d;
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+.main_container {
+  width: 100%;
+  max-width: fit-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 40px;
+  text-align: center;
+}
+
+.container p {
+  margin: 10px;
+}
+
+.posn_box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  color: wheat;
+  font-size: 32px;
+  line-height: 200px;
+  text-align: center;
+}
