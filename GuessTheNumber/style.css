@@ -1,0 +1,76 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 108, 159);
+    font-family: monospace;
+}
+
+.main_container
+{
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width:500px;
+    max-height: fit-content;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+            0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+.result
+{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px;
+}
+.inputGuess 
+{
+    display: none;
+}
+
+.submit 
+{
+    margin: 20px;
+    padding:5px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: monospace;
+    cursor: pointer;
+    background-color: #38B2AC;
+    color: white;
+
+}
+
+.Range
+{
+    margin: 20px;
+    
+}
+
+label
+{
+    font-size: 24px;
+}
+input[type="number"]
+{
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+}

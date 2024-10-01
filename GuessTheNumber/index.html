@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+</head>
+<body>
+    <div class="main_container">
+        <p class="result" id="DisplayHeading">Range From</p>
+
+        <form class="inputForm">
+            <div class="Range">
+                <label for="Start">Input Start Range</label>
+                <input type="number" id="Start" required />
+            </div>
+
+            <div class="Range">
+                <label for="end">Input End Range</label>
+                <input type="number" id="end" required />
+            </div>
+
+            <div class="Range inputGuess">
+                <label for="guess">Input Guess</label>
+                <input type="number" id="guess" name="" />
+            </div>
+
+            <button type="submit" class="submit" onclick="processInput(event)">Play Game</button>
+        </form>
+
+        <p class="result" id="DisplayResult">Result:</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
